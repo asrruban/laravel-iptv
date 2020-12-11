@@ -1,6 +1,6 @@
 <?php
 
-namespace Felipefm32\LaravelIPTV;
+namespace Ruban\LaravelIPTV;
 
 use Illuminate\Support\ServiceProvider;
 
