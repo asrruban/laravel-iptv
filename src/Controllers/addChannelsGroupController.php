@@ -1,6 +1,6 @@
 <?php
 
-namespace Felipefm32\LaravelIPTV\Controllers;
+namespace Ruban\LaravelIPTV\Controllers;
 
 use Illuminate\Http\Request;
 
