@@ -9,7 +9,7 @@ Para instalar você precisa ter laravel 7.x.
 ### Execute o comando abaixo na raiz do projeto para baixar.
 
 ```bash
-composer require Ruban/laravel-iptv
+composer require asrruban/laravel-iptv
 ```
 
 
