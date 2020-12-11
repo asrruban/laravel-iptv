@@ -1,1 +1,33 @@
-# Laravel IPTVEsta é uma biblioteca que controla lista de canais iptv  e gera uma lista m3u## InstalaçãoPara instalar você precisa ter laravel 5.4.### Execute o comando abaixo na raiz do projeto para baixar.```bashcomposer require felipefm32/laravel-iptv```### Depois adicione  no arquivo 'config/app.php' ```php<?php...'providers' => [...Felipefm32\LaravelIPTV\IPTVProvider::class,...];```### Migre o banco de dados```bashphp artisan migrate```
+# Laravel IPTV
+
+Esta Ã© uma biblioteca que controla lista de canais iptv  e gera uma lista m3u
+
+## InstalaÃ§Ã£o
+
+Para instalar vocÃª precisa ter laravel 7.x.
+
+### Execute o comando abaixo na raiz do projeto para baixar.
+
+```bash
+composer require Ruban/laravel-iptv
+```
+
+
+### Depois adicione  no arquivo 'config/app.php' 
+
+```php
+<?php
+...
+'providers' => [
+...
+Ruban\LaravelIPTV\IPTVProvider::class,
+...
+];
+
+```
+
+### Migre o banco de dados
+
+```bash
+php artisan migrate
+```
