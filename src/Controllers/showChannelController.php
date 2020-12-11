@@ -1,10 +1,10 @@
 <?php
 
-namespace Felipefm32\LaravelIPTV\Controllers;
+namespace Ruban\LaravelIPTV\Controllers;
 
 use Illuminate\Http\Request;
-use Felipefm32\LaravelIPTV\Model\IPTVChannel;
-use Felipefm32\LaravelIPTV\Model\IPTVChannelGroup;
+use Ruban\LaravelIPTV\Model\IPTVChannel;
+use Ruban\LaravelIPTV\Model\IPTVChannelGroup;
 
 
 class showChannelController extends Controller
