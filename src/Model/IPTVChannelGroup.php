@@ -1,6 +1,6 @@
 <?php
 
-namespace Felipefm32\LaravelIPTV\Model;
+namespace Ruban\LaravelIPTV\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
