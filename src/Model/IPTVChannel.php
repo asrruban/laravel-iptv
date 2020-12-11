@@ -1,6 +1,6 @@
 <?php
 
-namespace Felipefm32\LaravelIPTV\Model;
+namespace Ruban\LaravelIPTV\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -22,7 +22,7 @@ class IPTVChannel extends Model
      */
     public function group()
     {
-        return $this->belongsTo('Felipefm32\LaravelIPTV\Model\IPTVChannelGroup');
+        return $this->belongsTo('Ruban\LaravelIPTV\Model\IPTVChannelGroup');
     }
 	
 	public function scopeGetList($query){
