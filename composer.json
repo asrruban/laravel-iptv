@@ -1,6 +1,7 @@
 {
     "name": "asrruban/laravel-iptv",
     "description": "Controller iptv system using Laravel.",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -8,6 +9,7 @@
             "email": "asr.ruban@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
 
 	},
@@ -19,6 +21,4 @@
 			"Ruban\\LaravelIPTV\\":"src/"
         }
     }
-    "minimum-stability": "dev",
-    "prefer-stable": true
 }
